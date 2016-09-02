@@ -1,0 +1,10 @@
+E:\Git\LearnLinq\LearnLinq\Linq.Model\obj\Debug\Linq.Model.csprojResolveAssemblyReference.cache
+E:\Git\LearnLinq\LearnLinq\Linq.Model\bin\Debug\Linq.Model.dll.config
+E:\Git\LearnLinq\LearnLinq\Linq.Model\bin\Debug\Linq.Model.dll
+E:\Git\LearnLinq\LearnLinq\Linq.Model\bin\Debug\Linq.Model.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.Model\bin\Debug\EntityFramework.dll
+E:\Git\LearnLinq\LearnLinq\Linq.Model\bin\Debug\EntityFramework.xml
+E:\Git\LearnLinq\LearnLinq\Linq.Model\obj\Debug\Linq.Model.dll
+E:\Git\LearnLinq\LearnLinq\Linq.Model\obj\Debug\Linq.Model.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Git\LearnLinq\LearnLinq\Linq.Model\bin\Debug\EntityFramework.SqlServer.xml

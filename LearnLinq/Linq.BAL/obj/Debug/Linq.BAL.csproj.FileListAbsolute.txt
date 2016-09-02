@@ -1,0 +1,11 @@
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\Linq.BAL.dll
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\Linq.BAL.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\Linq.DAL.dll
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\Linq.Model.dll
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\EntityFramework.dll
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\Linq.DAL.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\Linq.Model.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\bin\Debug\EntityFramework.xml
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\obj\Debug\Linq.BAL.csprojResolveAssemblyReference.cache
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\obj\Debug\Linq.BAL.dll
+E:\Git\LearnLinq\LearnLinq\Linq.BAL\obj\Debug\Linq.BAL.pdb

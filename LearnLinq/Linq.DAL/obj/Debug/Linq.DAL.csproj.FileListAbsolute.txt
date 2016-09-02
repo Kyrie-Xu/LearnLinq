@@ -1,0 +1,9 @@
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\bin\Debug\Linq.DAL.dll
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\bin\Debug\Linq.DAL.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\obj\Debug\Linq.DAL.csprojResolveAssemblyReference.cache
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\obj\Debug\Linq.DAL.dll
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\obj\Debug\Linq.DAL.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\bin\Debug\Linq.Model.dll
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\bin\Debug\EntityFramework.dll
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\bin\Debug\Linq.Model.pdb
+E:\Git\LearnLinq\LearnLinq\Linq.DAL\bin\Debug\EntityFramework.xml

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Linq.Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="PetrolStationAssistEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BusiUnit" EntityType="Linq.Model.BusiUnit" />
+    <EntitySet Name="DepotPerson" EntityType="Linq.Model.DepotPerson" />
+  </EntityContainer>
+  <EntityType Name="BusiUnit">
+    <Key>
+      <PropertyRef Name="BusiUnitId" />
+    </Key>
+    <Property Name="BusiUnitId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BusiUnitTypeID" Type="Int32" Nullable="false" />
+    <Property Name="RegionCode" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="BusiUnitCode" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ERPCode" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="BusiUnitName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ShortName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="HelperCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OrderId" Type="Int32" />
+    <Property Name="Address" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="WebSiteUrl" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="FtpSiteUrl" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Telephone1" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Telephone2" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="E_Mail" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="X" Type="Decimal" Precision="18" Scale="14" />
+    <Property Name="Y" Type="Decimal" Precision="18" Scale="14" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Remark" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+    <Property Name="FMISCode" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="BosCode" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="ERPCode_Company" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="ERPCode_Profit" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="ERPCode_Client" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="FMISCode_Duty" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="FMISCode_Cost" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="FMISCode_Client" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="DepotPerson">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonCode" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="WorkNo" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="PersonName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="DomainAcc" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PassWord" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SexId" Type="Int32" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="IDCard" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Nation" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="NativePlace" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PoliticalId" Type="Int32" />
+    <Property Name="JoinDate" Type="DateTime" Precision="3" />
+    <Property Name="EducationId" Type="Int32" />
+    <Property Name="GraduateFrom" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Perfessional" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Ability" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IsFulltime" Type="Boolean" />
+    <Property Name="HomeAddress" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PostCode" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="WorkType" Type="Int32" />
+    <Property Name="WorkStartDate" Type="DateTime" Precision="3" />
+    <Property Name="JobLevel" Type="Int32" />
+    <Property Name="JobSure" Type="DateTime" Precision="3" />
+    <Property Name="DutyId" Type="Int32" />
+    <Property Name="DutySure" Type="DateTime" Precision="3" />
+    <Property Name="Contact" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Officephone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Homephone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Mobilephone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="EMail" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Certificate" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="Remark" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="HelperCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

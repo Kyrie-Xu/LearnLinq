@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LinqModelStoreContainer" CdmEntityContainer="PetrolStationAssistEntities">
+    <EntitySetMapping Name="BusiUnit">
+      <EntityTypeMapping TypeName="Linq.Model.BusiUnit">
+        <MappingFragment StoreEntitySet="BusiUnit">
+          <ScalarProperty Name="BusiUnitId" ColumnName="BusiUnitId" />
+          <ScalarProperty Name="BusiUnitTypeID" ColumnName="BusiUnitTypeID" />
+          <ScalarProperty Name="RegionCode" ColumnName="RegionCode" />
+          <ScalarProperty Name="BusiUnitCode" ColumnName="BusiUnitCode" />
+          <ScalarProperty Name="ERPCode" ColumnName="ERPCode" />
+          <ScalarProperty Name="BusiUnitName" ColumnName="BusiUnitName" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="HelperCode" ColumnName="HelperCode" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="WebSiteUrl" ColumnName="WebSiteUrl" />
+          <ScalarProperty Name="FtpSiteUrl" ColumnName="FtpSiteUrl" />
+          <ScalarProperty Name="Telephone1" ColumnName="Telephone1" />
+          <ScalarProperty Name="Telephone2" ColumnName="Telephone2" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="E_Mail" ColumnName="E_Mail" />
+          <ScalarProperty Name="X" ColumnName="X" />
+          <ScalarProperty Name="Y" ColumnName="Y" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="FMISCode" ColumnName="FMISCode" />
+          <ScalarProperty Name="BosCode" ColumnName="BosCode" />
+          <ScalarProperty Name="ERPCode_Company" ColumnName="ERPCode_Company" />
+          <ScalarProperty Name="ERPCode_Profit" ColumnName="ERPCode_Profit" />
+          <ScalarProperty Name="ERPCode_Client" ColumnName="ERPCode_Client" />
+          <ScalarProperty Name="FMISCode_Duty" ColumnName="FMISCode_Duty" />
+          <ScalarProperty Name="FMISCode_Cost" ColumnName="FMISCode_Cost" />
+          <ScalarProperty Name="FMISCode_Client" ColumnName="FMISCode_Client" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DepotPerson">
+      <EntityTypeMapping TypeName="Linq.Model.DepotPerson">
+        <MappingFragment StoreEntitySet="DepotPerson">
+          <ScalarProperty Name="PersonID" ColumnName="PersonID" />
+          <ScalarProperty Name="PersonCode" ColumnName="PersonCode" />
+          <ScalarProperty Name="WorkNo" ColumnName="WorkNo" />
+          <ScalarProperty Name="PersonName" ColumnName="PersonName" />
+          <ScalarProperty Name="DomainAcc" ColumnName="DomainAcc" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="SexId" ColumnName="SexId" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Nation" ColumnName="Nation" />
+          <ScalarProperty Name="NativePlace" ColumnName="NativePlace" />
+          <ScalarProperty Name="PoliticalId" ColumnName="PoliticalId" />
+          <ScalarProperty Name="JoinDate" ColumnName="JoinDate" />
+          <ScalarProperty Name="EducationId" ColumnName="EducationId" />
+          <ScalarProperty Name="GraduateFrom" ColumnName="GraduateFrom" />
+          <ScalarProperty Name="Perfessional" ColumnName="Perfessional" />
+          <ScalarProperty Name="Ability" ColumnName="Ability" />
+          <ScalarProperty Name="IsFulltime" ColumnName="IsFulltime" />
+          <ScalarProperty Name="HomeAddress" ColumnName="HomeAddress" />
+          <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+          <ScalarProperty Name="WorkType" ColumnName="WorkType" />
+          <ScalarProperty Name="WorkStartDate" ColumnName="WorkStartDate" />
+          <ScalarProperty Name="JobLevel" ColumnName="JobLevel" />
+          <ScalarProperty Name="JobSure" ColumnName="JobSure" />
+          <ScalarProperty Name="DutyId" ColumnName="DutyId" />
+          <ScalarProperty Name="DutySure" ColumnName="DutySure" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Officephone" ColumnName="Officephone" />
+          <ScalarProperty Name="Homephone" ColumnName="Homephone" />
+          <ScalarProperty Name="Mobilephone" ColumnName="Mobilephone" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="Certificate" ColumnName="Certificate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="HelperCode" ColumnName="HelperCode" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

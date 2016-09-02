@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Linq.Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="LinqModelStoreContainer">
+    <EntitySet Name="BusiUnit" EntityType="Linq.Model.Store.BusiUnit" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DepotPerson" EntityType="Linq.Model.Store.DepotPerson" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="BusiUnit">
+    <Key>
+      <PropertyRef Name="BusiUnitId" />
+    </Key>
+    <Property Name="BusiUnitId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BusiUnitTypeID" Type="int" Nullable="false" />
+    <Property Name="RegionCode" Type="varchar" MaxLength="12" />
+    <Property Name="BusiUnitCode" Type="varchar" MaxLength="20" />
+    <Property Name="ERPCode" Type="varchar" MaxLength="20" />
+    <Property Name="BusiUnitName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="ShortName" Type="varchar" MaxLength="50" />
+    <Property Name="HelperCode" Type="varchar" MaxLength="50" />
+    <Property Name="OrderId" Type="int" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="ParentId" Type="int" />
+    <Property Name="WebSiteUrl" Type="varchar" MaxLength="200" />
+    <Property Name="FtpSiteUrl" Type="varchar" MaxLength="200" />
+    <Property Name="Telephone1" Type="varchar" MaxLength="20" />
+    <Property Name="Telephone2" Type="varchar" MaxLength="20" />
+    <Property Name="Fax" Type="varchar" MaxLength="20" />
+    <Property Name="E_Mail" Type="varchar" MaxLength="100" />
+    <Property Name="X" Type="numeric" Scale="14" />
+    <Property Name="Y" Type="numeric" Scale="14" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Remark" Type="varchar" MaxLength="200" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="ModifiedOn" Type="datetime" />
+    <Property Name="FMISCode" Type="nvarchar" MaxLength="32" />
+    <Property Name="BosCode" Type="nvarchar" MaxLength="32" />
+    <Property Name="ERPCode_Company" Type="nvarchar" MaxLength="32" />
+    <Property Name="ERPCode_Profit" Type="nvarchar" MaxLength="32" />
+    <Property Name="ERPCode_Client" Type="nvarchar" MaxLength="32" />
+    <Property Name="FMISCode_Duty" Type="nvarchar" MaxLength="32" />
+    <Property Name="FMISCode_Cost" Type="nvarchar" MaxLength="32" />
+    <Property Name="FMISCode_Client" Type="nvarchar" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="DepotPerson">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PersonCode" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="WorkNo" Type="varchar" MaxLength="20" />
+    <Property Name="PersonName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="DomainAcc" Type="varchar" MaxLength="100" />
+    <Property Name="PassWord" Type="varchar" MaxLength="50" />
+    <Property Name="SexId" Type="int" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="IDCard" Type="varchar" MaxLength="20" />
+    <Property Name="Photo" Type="image" />
+    <Property Name="Nation" Type="varchar" MaxLength="50" />
+    <Property Name="NativePlace" Type="varchar" MaxLength="50" />
+    <Property Name="PoliticalId" Type="int" />
+    <Property Name="JoinDate" Type="datetime" />
+    <Property Name="EducationId" Type="int" />
+    <Property Name="GraduateFrom" Type="varchar" MaxLength="50" />
+    <Property Name="Perfessional" Type="varchar" MaxLength="50" />
+    <Property Name="Ability" Type="varchar" MaxLength="50" />
+    <Property Name="IsFulltime" Type="bit" />
+    <Property Name="HomeAddress" Type="varchar" MaxLength="100" />
+    <Property Name="PostCode" Type="varchar" MaxLength="6" />
+    <Property Name="WorkType" Type="int" />
+    <Property Name="WorkStartDate" Type="datetime" />
+    <Property Name="JobLevel" Type="int" />
+    <Property Name="JobSure" Type="datetime" />
+    <Property Name="DutyId" Type="int" />
+    <Property Name="DutySure" Type="datetime" />
+    <Property Name="Contact" Type="varchar" MaxLength="30" />
+    <Property Name="Officephone" Type="varchar" MaxLength="20" />
+    <Property Name="Homephone" Type="varchar" MaxLength="20" />
+    <Property Name="Mobilephone" Type="varchar" MaxLength="20" />
+    <Property Name="EMail" Type="varchar" MaxLength="100" />
+    <Property Name="Certificate" Type="varchar" MaxLength="500" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="Remark" Type="varchar" MaxLength="200" />
+    <Property Name="HelperCode" Type="varchar" MaxLength="50" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="ModifiedOn" Type="datetime" />
+  </EntityType>
+</Schema>
